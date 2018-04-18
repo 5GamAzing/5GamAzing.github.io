@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+	</head>
+	<body style="background-color:lightblue">
+		<h1>
+			<button class="makemoney" onclick="moneyplayerClick()">+$<span id="monperclick">1</span>!</button>
+			<br />
+			Money: $<span id="money">0</span>
+			<br />
+			Money Per Second: $<span id="monpersec">0</span>
+			<br />
+		</h1>
+		<div title="buttons">
+			<br />
+			<button class="buycursor" onclick="buyCursor()">Buy Cursor</button>
+			<br />
+			Cursors: <span id="cursors">0</span>
+			<br />
+			Cursor Cost: $<span id="cursorCost">10</span>
+			<br />
+			<br />
+			<button class="buystock" onclick="buyStock()">Buy Stock</button>
+			<br />
+			Stocks: <span id="stocks">0</span>
+			<br />
+			Stock Cost: $<span id="stockCost">250</span>
+			<script type="text/javascript" src="main.js"></script>
+		</div>
+	</body>
+</html>

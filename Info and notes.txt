@@ -1,0 +1,6 @@
+Notes about Clicker Game
+Resources (in order of unlock): Money, parts, fuel, robots
+Info bar: money, land/sec, countries, continents, worlds, sq mi conquered, robot health
+Worlds become larger, bigger worlds
+
+Robots get progressively more armor, weapons, etc.
